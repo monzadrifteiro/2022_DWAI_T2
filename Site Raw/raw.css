@@ -1,0 +1,129 @@
+body{
+    text-align: center;
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+picture{
+    margin-left: auto;
+    margin-right: auto;
+}
+picture img{
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+li{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    font-size: 35px;
+}
+li img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 73em;
+}
+ol{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Garamond;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 100;
+    border-bottom: 5px solid antiquewhite;  
+}
+h3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    width: 50;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+}
+a{
+    text-align: center;
+    font-family: Garamond;
+    font-style: italic;
+    text-decoration: none;
+}
+a:link{
+    color:black
+}
+a:visited{
+    color: black;
+}
+h4{
+    text-align: left;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+}
+label{
+    display: inline-block;
+    width: 5em;
+}
+input{
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 0.7em;
+}
+input[type=search]{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 2em;
+    margin: 30px;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: left;
+}
+div{
+    margin-bottom: 1em;
+}
+textarea{
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 1em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+fieldset{
+    text-align: center;
+    padding: 16px;
+}
+legend{
+    font-size: 20px;
+}
+address{
+    margin-top: 50px;
+    padding: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: whitesmoke;
+}

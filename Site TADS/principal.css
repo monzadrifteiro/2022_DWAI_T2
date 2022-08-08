@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-image: linear-gradient(to right, #040047, #00ffda)
+}
+header h1{
+    font-size: 3em;
+}
+header h1 a{
+    color: white;
+    text-decoration: none;
+}
+header ol{
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    padding: 1em;
+}
+header li a{
+    text-decoration: none;
+    color: #040047;
+}
+body{
+    background-color: lightcyan;
+}
+main{
+    max-width: 100em;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+section{
+    max-width: 60em;
+    display: flex;
+    flex-wrap: wrap;
+}
+section div{
+    width: 26em;
+    box-sizing: border-box;
+    padding: 2em;
+    margin: 2em;
+    box-shadow: whitesmoke;
+    background-color: white;
+}
+section div.ancora{
+    background-color: lightgrey;
+    width: 8em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+aside{
+    max-width: 40em;
+    margin: 2em;
+    padding: 3em;
+    background-color: white;
+}
+aside h2{
+    color: #040047;
+    margin: 1em;
+}
+aside input[type="search"]{
+    border: 2px solid black;
+    padding: 1em;
+}
+aside ::placeholder{
+    color: #040047;
+}
+aside input[type="radio"]{
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+aside input[type="submit"]{
+    border: none;
+    margin: 0 auto;
+    padding: 1em;
+    color: #040047;
+    background-color: lightcyan;
+}
+form div{
+    text-align: center;
+}
+footer{
+    background-color: lightgray;
+    padding: 3em;
+    color: #040047;
+}

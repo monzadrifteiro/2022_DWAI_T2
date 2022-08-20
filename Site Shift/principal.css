@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    color: white;
+    padding: 2em;
+    background-image: linear-gradient(to left,#7292A6, #224459 )
+}
+main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 3.5fr 2fr 2fr;
+    grid-template-rows: 17em 17em 17em;
+    gap: 1em;
+    grid-template-areas:
+    "nav descricao programacao programacao imagemb"
+    "nav topicos inscricao imagemc imagemd"
+    "nav imagema inscricao organizacao organizacao"
+}
+.descricao{grid-area: descricao;}
+.programacao{grid-area: programacao;}
+.imagemb{grid-area: imagemb;}
+.topicos{grid-area: topicos;}
+.inscricao{grid-area: inscricao;}
+.imagemc{grid-area: imagemc;}
+.imagemd{grid-area: imagemd;}
+.imagema{grid-area: imagema;}
+.organizacao{grid-area: organizacao;}
+nav{
+    grid-area: nav;
+    background-color: #C5D1D9;
+}
+nav ol a{
+    text-decoration: none;
+}
+nav ol li{
+    padding: 1em;
+    font-size: 2em;
+    color: #32728B;
+}
+main section{
+    background-color: lightgrey;
+    padding: 2em;
+}
+.descricao p{
+    font-size: 1.45em;
+    padding: 0.2em;
+}
+section p a{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #32728B;
+    border: 2px solid #32728B;
+}
+b{
+    color: #32728B;
+}
+section.topicos ul li{
+    list-style-position: inside;
+    list-style-type: disc;
+    padding: 0.35em;
+    font-size: 1.2em;
+}
+.imagema{
+    background-image: url(imagens/larissa.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 0;
+}
+.imagemb{
+    background-image: url(imagens/amanda.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 0;
+}
+.imagemc{
+    background-image: url(imagens/natalia.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 0;
+}
+.imagemd{
+    background-image: url(imagens/henrique.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 0;
+}
+.box h3{
+    text-align: center;
+    margin-top: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2em;
+}
+.programacao h3{
+    font-size: 2em;
+}
+.programacao td{
+    border: 1px solid white;
+    padding: 0.5em;
+    text-align: center;
+}
+.programacao table{
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    border-collapse: collapse;
+}
+.inscricao h3{
+    font-size: 2em;
+}
+.inscricao input[type="text"]{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+    border: 3px solid dimgray;
+}
+.inscricao input[type="email"]{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+    border: 3px solid dimgray;
+}
+.inscricao input[type="tel"]{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+    border: 3px solid dimgray;
+}
+.inscricao ::placeholder{
+    font-size: 1.2em;
+}
+.inscricao input[type="checkbox"]{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: solid dimgray;
+    border-radius: 0%;
+}
+.inscricao input[type="submit"]{
+    display: block;
+    background-color: black;
+    color: dimgray;
+    padding: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+}
+.inscricao label{
+    font-size: 1.2em;
+}
+.organizacao h3{
+    font-size: 2em;
+}
+.organizacao p{
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+.organizacao ol li{
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 1.2em;
+}
+footer{
+    background-color: #224459;
+    padding: 5em;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+

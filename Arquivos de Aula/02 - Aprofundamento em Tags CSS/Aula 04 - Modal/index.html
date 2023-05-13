@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                  background-color: aqua;
+                  padding: 2em;
+                  position: fixed;
+                  top: 0;
+                  width: 100%;
+                  box-sizing: border-box;
+                  z-index: 1;
+            }
+            main, footer{
+                margin: 2em 0;
+                background-color: lavender;
+                padding: 2em;
+            }
+            div#modal{
+                background-color: crimson;
+                box-shadow: 0 0 0.3 black;
+                width: 20em;
+                height: 20em;
+                padding: 3em;
+                position: fixed;
+                z-index: 3;
+                left: 30%;
+                top: 20%;
+                visibility: hidden;
+            }
+            div#esmaecer{
+                background-color: rgba(0, 0, 0, 0.8);
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                position: fixed;
+                z-index: 2;
+                visibility: hidden;
+            }
+        </style>
+        <script>
+            function fechar(){
+                document.getElementById('modal').style.visibility = 'hidden';
+                document.getElementById('esmaecer').style.visibility = 'hidden';
+            }
+            function abrir(){
+                document.getElementById('modal').style.visibility = 'visible';
+                document.getElementById('esmaecer').style.visibility = 'visible';
+            }
+        </script>
+    </head>
+    <body>
+        <div id="esmaecer"></div>
+        <div id="modal">
+            <a href="javascript:fechar()">(fechar)</a>
+            <p>MODAL - Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fuga nihil aliquam, nam delectus laudantium fugit quas aliquid! Dolore quibusdam laboriosam qui praesentium, commodi animi quis provident minima odio adipisci.</p>
+        </div>
+        <header>
+            <h1><a href="javascript:abrir()">EXPOTEC</a></h1>
+        </header>
+        <main>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus dolore, temporibus libero quia deleniti autem eius eveniet nesciunt minus commodi, labore vero illo incidunt quibusdam porro eum magnam. Esse.</p>
+        </main>
+        <footer>
+            <p>Desenvolvido por IFRN</p>
+        </footer>
+    </body>
+</html>

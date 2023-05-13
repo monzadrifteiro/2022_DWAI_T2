@@ -1,0 +1,20 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    grid-template-rows: 20em 20em 20em;
+    grid-template-areas:
+    "a b c"
+    "a b d"
+    "e e e";
+}
+main section{
+    border: 1px solid black;
+    background-color: brown;
+    padding: 2em;
+}
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+.e{grid-area: e;}

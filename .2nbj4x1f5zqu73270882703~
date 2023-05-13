@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    padding: 2em;
+    background-color: #3ea4e1;
+}
+header a{
+    color: white;
+}
+li{
+    display: inline-block;
+}
+main{
+    margin: 0 auto;
+    max-width: 70em; 
+    /* largura maxima */
+}
+main section{
+    margin: 3em 0;
+    padding: 3em;
+}
+footer{
+    padding: 2em;
+    background-color: #a37ecd;
+}
+section.palestrantes{
+    background-color: #99cfef;
+}
+section.noticias{
+    background-color: #7ac0ea;
+}
+section.organizadores{
+    background-color: #5bb1e5;
+}
+

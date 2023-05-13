@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Gusttavo Lima</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="cantor.css" />
+    </head>
+    <body>
+        <h1>GUSTTAVO LIMA</h1>
+        <h2>Biografia</h2>
+        <p>Nivaldo Batista Lima, nasceu em Presidente Olegário, no dia 3 de setembro de 1989, filho do tratorista Alcino Landim de Lima e da lavadeira Sebastiana Maria de Lima, caçula de 7 irmãos (Luciana, Nilson, Nilza, Admilson, Roseli e Luciano) em 1991, seu pai então foi ao cartório para, enfim, lhe registrar. Saiu de casa com a recomendação de sua esposa, de dar ao menino o sonoro nome de Samuel. No caminho, Alcino encontrou um primo desencontrado pelos desvios da vida. Quando conseguiu sair de um bar e chegar ao cartório, Alcino registrou a criança com o nome do primo: Nivaldo. Foi como Nivaldo que ele tentou, dos 9 aos 13 anos, levado por irmãos mais velhos a fazer sucesso como cantor no Trio Remelexo, em Itabira, Minas Gerais, enquanto as três irmãs pegavam na enxada, na roça ou como empregadas domésticas.</p>
+        <figure>
+            <img src="gusttavo.jpg" width="400" alt="Cantor Gusttavo Lima cantando em show realizado em Guarabira/PB"/>
+            <figcaption>Gusttavo Lima em show no dia 14/01/2020</figcaption>
+        </figure>
+        <p>Aos 13 anos, tentou seguir carreira em Brasília por sugestão de um conhecido que se comprometeu a buscá-lo assim que ele chegasse e ligasse. Quando chegou na rodoviária, ligou várias vezes do orelhão, mas não foi atendido. Passou fome e dormiu no chão da rodoviária por três dias, sobrevivendo apenas tocando guitarra e cantando para que as pessoas deixassem um dinheiro para ele poder comer. No quarto dia, o homem apareceu para buscá-lo e o deixou morar nos fundos de sua casa e ser músico dele. Depois disso, voltou a cantar com seus irmãos que tinham ido para Brasília, porém não deu certo mais uma vez e se separaram novamente, e assim os irmãos voltaram para Minas e ele continuou em Brasília. Com o nome de "Gustavo", formou com um amigo a dupla Gustavo & Alessandro, que não deu certo e durou um ano. Passou um tempo sendo guitarrista da dupla Jhonny & Rahony, a qual Jhonny deu abrigo para ele na época. Só que Gusttavo queria mesmo era cantar e não só tocar, então deixou a dupla e foi cantar sozinho, só que mais uma vez não deu certo.</p>
+        <p>Perto de desistir de tudo, outro primo importante na saga familiar sugeriu: "Tente pela última vez, mas vá para Goiânia. É lá que os sertanejos acontecem". Colocado no lugar certo, ele deu o toque final ao acrescentar um segundo "t" ao nome artístico, já que o nome com só um "t" já tinha registro.</p>
+        <h2>Vida pessoal</h2>
+        <p>Em agosto de 2012, o cantor começou a namorar a atriz e modelo Andressa Suita, com quem se casou no civil em sua residência no dia 15 de dezembro de 2015 e no dia 16 de outubro de 2016, na fazenda do cantor na cidade de João Pinheiro, em Minas Gerais, onde foi realizado um casamento religioso. Nessa mesma ocasião, Gusttavo cantou um de seus sucessos, "60 Segundos", ao vivo, enquanto a noiva entrou acompanhada por seu pai. No dia 28 de junho de 2017, nasceu o primeiro filho do casal, um menino chamado Gabriel. No dia 24 de julho de 2018, nasceu o segundo filho, outro menino, chamado Samuel. Em 9 de outubro de 2020, Gusttavo e Andressa anunciam a separação depois de 5 anos juntos (2015-2020), negando qualquer especulação de traição, o cantor garantiu que a decisão partiu dele mesmo, Gusttavo declarou o seguinte:</p>
+        <p>"Do mesmo jeito que entrei no relacionamento, eu quis sair pela porta da frente, “Temos dois filhos para criar pelo resto da vida. Nossa relação sempre foi muito tranquila. E nada pode afetar na criação dos nossos filhos. Mas, infelizmente, foi melhor dessa forma”. Ele ainda frisou que continuará a amizade com Andressa. “Temos um propósito maior do que tudo, que é criar dois filhos que será repleto de muito amor e dedicação. Amizade prevalece acima de tudo."</p>
+        <h2>Turnês</h2>
+        <figure>
+            <img src="gusttavo2.jpg" width="500" alt="Cantor Gusttavo Lima seduzindo fãs em Caruaru/PE"/>
+            <figcaption>Gusttavo Lima encenando o hit "Bloqueado"</figcaption>
+        </figure>
+        <ol>
+            <li>2010–2011: Turnê Inventor dos Amores</li>
+            <li>2011–2012: Turnê Gusttavo Lima e Você</li>
+            <li>2012: Turnê nos EUA</li>
+            <li>2012: Turnê na Europa</li>
+            <li>2014: Turnê Do Outro Lado da Moeda</li>
+            <li>2015–2016: Turnê Buteco do Gusttavo Lima</li>
+            <li>2016: Turnê nos EUA</li>
+            <li>2016–2017: Turnê 50/50</li>
+            <li>2018: Turnê Buteco do Gusttavo Lima 2</li>
+            <li>2018: Turnê O Embaixador</li>
+        </ol>
+    </body>
+</html>

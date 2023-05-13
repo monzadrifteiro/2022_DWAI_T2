@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Lorem</title>
+        <meta charset="utf-8"/>
+        <style>
+        img{
+            border: 1px solid black;
+            box-shadow: 5px 5px 5px gray;
+        }   
+        figure{
+            float: left;
+        }
+        </style>    
+    </head>
+    <body>
+        <h1>Lorem</h1>
+
+        <figure>
+        <img src="foca3.jpg" width="300" alt="imagem de uma foca saindo da água com um olhar de medo"/>
+        <figcaption>Lorem</figcaption>
+        </figure>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, libero repellat nobis unde cum necessitatibus voluptates architecto nesciunt tenetur doloribus a officiis! Nemo corrupti nostrum repudiandae est, vel iste commodi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit corrupti molestiae error iusto laudantium expedita quis earum nostrum exercitationem quia rem possimus voluptatem amet ex nulla quisquam, minus similique commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum minima doloribus tempora blanditiis. Aut inventore quis tempora, impedit ea eaque sunt, ab consequatur, animi pariatur aperiam quibusdam ut dolorum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias adipisci hic molestiae ipsum, voluptatum accusantium cupiditate eos provident corporis delectus accusamus eius cum quisquam voluptatibus? Placeat animi maxime repellendus vitae.</p>
+        
+    </body>
+</html>

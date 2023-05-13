@@ -1,0 +1,9 @@
+body{
+    /*background-image: url(noise.png), url(footer-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: contain, contain;*/
+
+   background-image: linear-gradient( red, yellow, orange, indigo, blue, turquoise, cyan, pink, violet, magenta);
+}
